@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .container{
+        display: grid;
+        height: 800px;
+        grid-template-columns:repeat(3, 2fr);
+        grid-template-rows:2fr 2fr  1fr;
+        grid-auto-rows: 2fr 1fr 2fr;
+
+        background-color:blue;
+        padding: 20px;
+        
+        }
+        .item{
+            background-color:wheat;
+            padding: 15px;
+            margin: 15px;
+            color: blue;
+            font-size: 18px;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">Masonry I</div>
+        <div class="item">Responsive</div>
+        <div class="item">Masonry II</div>
+        <div class="item">Flexible Breadth</div>
+        <div class="item">DOM Order</div>
+        <div class="item">Fluid</div>
+        <div class="item">Overlap</div>
+        <div class="item">Explicity Placed</div>
+        <div class="item">Negative space</div>
+        <div class="item">Masonry III</div>
+        <div class="item">Named Tracks</div>
+
+
+
+    </div>
+</body>
+</html>
